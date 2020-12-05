@@ -1,0 +1,29 @@
+GET http://localhost:3000/products
+
+###product creation
+
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name": "iphone 2 mini",
+    "price":245
+    
+}
+###getting product by id
+GET  http://localhost:3000/products/5fc8c4e3a1e6833c845d07
+
+###updating product by id
+
+PATCH  http://localhost:3000/products/5fc87056779e923e1c2a411
+Content-Type: application/json
+
+{
+
+    "price": 14000
+}
+###deleting product
+DELETE  http://localhost:3000/products/5fc86e2f65018e36e081613
+
+###
+GET http://localhost:3000/lklkl
